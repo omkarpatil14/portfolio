@@ -13,7 +13,7 @@ import Vue from "../assets/Vue.png";
 import mongo from "../assets/mongodb.png";
 import express from "../assets/expressjs.png";
 import redux from "../assets/redux.png";
-import postman from "../assets/postman.png";
+import postman from "../assets/Postman.png";
 import bootstrap from "../assets/bootstrap.png";
 import mui from "../assets/mui.png";
 import java from "../assets/java.png";
