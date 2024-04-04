@@ -18,7 +18,7 @@ import bootstrap from "../assets/bootstrap.png";
 import mui from "../assets/mui.png";
 import java from "../assets/java.png";
 import mysql from "../assets/mysql.png";
-import socket from "../assets/socket.io.png";
+import socket from "../assets/Socket.io.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
 import GSSOC from "../assets/GSSoc.jpg";
