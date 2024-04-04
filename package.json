@@ -13,16 +13,22 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^5.0.3",
+    "@material-tailwind/react": "^2.1.9",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.5",
     "aos": "^3.0.0-beta.6",
+    "apexcharts": "^3.48.0",
     "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
     "react-icons": "^4.10.1",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

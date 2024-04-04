@@ -48,9 +48,10 @@ const App = () => {
           <Achievements/>
           {/* <Experience></Experience> */}
           <Skills/>
-          {/* <Leetcode/> */}
+          <Leetcode/>
           <Education></Education>
           <Projects></Projects>
+
           <Contact></Contact>
         </div>
       )}

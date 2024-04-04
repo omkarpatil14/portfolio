@@ -9,7 +9,7 @@ function Achievements() {
   return (
     
     <section id="achievements"
-    className="p-5 mx-20 mb-10 flex gap-10 flex-col  font-medium font-['Poppins'] max-sm:p-2 max-sm:mx-5">
+    className="EXPERIENCE p-5 mx-20 flex flex-col justify-center items-center mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5">
         <h1 className="text-[#00040f] dark:text-slate-300 p-11 font-extrabold text-5xl text-center">
            Achivements
           </h1>
