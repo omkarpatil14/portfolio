@@ -1,8 +1,7 @@
-import education from "../assets/lottie/education.json";
-import IIIT_KOTA from "../assets/IIIT_Kota.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {vjti,lbs} from "../constants/Constant"
+
 import { useEffect } from "react";
 
 const Education = () => {
@@ -20,8 +19,8 @@ const Education = () => {
         </h1>
 
         
-<ol className="relative border-s border-gray-200 dark:border-gray-700">                  
-    <li className="mb-10 ms-4">
+<ol className="relative border-s border-gray-600 dark:border-gray-700">                  
+    <li className="mb-10 ms-4  ">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
          
         ></div>

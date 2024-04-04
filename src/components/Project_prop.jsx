@@ -15,7 +15,7 @@ const Project_prop = (props) => {
         data-aos={`fade-${props.direct}`}
       >
         <div className="HEADER">
-          <div className="HEADING flex gap-7 max-sm:gap-0">
+          <div className="HEADING flex   max-sm:gap-0">
             <div className="p-3 ">
               <img
                 src={props.img}
@@ -24,14 +24,14 @@ const Project_prop = (props) => {
               />
             </div>
             <div className="p-3">
-              <h1 className=" flex flex-wrap font-semibold tracking-wide bg-clip-text text-transparent bg-gradient-to-r p-1  from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200 text-xl mb-2 ">
+              <h1 className=" flex  font-semibold tracking-wide bg-clip-text text-transparent bg-gradient-to-r p-1  from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200 max-text-xl mb-2 ">
                 {props.title}
               </h1>
               <h3 className="text-[#00040f] dark:text-slate-200 p-1 ">
                 Tech Stack
               </h3>
 
-              <div className="flex gap-1 p-1 -translate-x-2">
+              <div className="flex flex-wrap gap-1 p-1 -translate-x-2">
                 {props.html5}
                 {props.Node}
                 {props.css3}

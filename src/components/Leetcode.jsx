@@ -7,7 +7,7 @@ function Leetcode() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("https://leetcode-stats-api.herokuapp.com/omkarpatil14");
+                const response = await axios.get("https://leetcode-stats-api.herokuapp.com/omkarpatil714");
                 setRes(response.data); // Access response.data, not response.json()
                 console.log(response.data);
             } catch (error) {
@@ -60,7 +60,7 @@ function Leetcode() {
   
     return (
         <section id="education" className="EXPERIENCE p-5  flex  flex-col md:flex-row justify-center items-center min-h-[20rem] font-['Poppins'] max-sm:p-2 max-sm:mx-5">
-           {res && <div>
+           {res && <div className="EXPERIENCE p-5  flex  flex-col md:flex-row justify-center items-center min-h-[20rem] font-['Poppins'] max-sm:p-2 max-sm:mx-5">
             <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl">
                 Leetcode Profile
             </h1>

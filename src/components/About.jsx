@@ -9,13 +9,13 @@ const About = () => {
     <>
       <section
         id="about"
-        className="p-5 pt-[8rem] mx-12 mb- font-medium  min-h-screen font-['Poppins'] flex md:flex-row flex-col  max-sm:p-2 max-sm:mx-5"
+        className="EXPERIENCE md:p-5 md:mx-20 h-auto flex flex-col md:flex-row justify-center items-center md:mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
       >
         <div className="WRAPPER mt-12 flex min-w-[50%] max-sm:flex-col gap-5 justify-between">
           <div className="INTRO text-[70px] leading-[80px] font-semibold max-sm:text-[50px] max-sm:leading-[70px] max-sm:font-semibold">
             <h3 className="text-[#00040f] dark:text-white">
               Hi, there! <br />I am <br/>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r text-[35px] md:text-[70px] from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200">
+              <span className="bg-clip-text flex  md:min-h-24 flex-wrap text-transparent bg-gradient-to-r text-[35px] md:text-[70px] from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200">
                 <TypeAnimation
                   sequence={[
                     'Omkar Patil ',
@@ -23,8 +23,6 @@ const About = () => {
                     'a Developer',
                     1000,
                     'a Designer',
-                    1000,
-                    'Photographer',
                     1000
                   ]}
                   wrapper="span"
@@ -34,7 +32,7 @@ const About = () => {
                 />
               </span>
             </h3>
-            <p className="ABOUT h-[100px] text-xl max-sm:text-[15px] bg-clip-text text-transparent  bg-gradient-to-r  from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[470px] mt-5 pl-1">
+            <p className="ABOUT  text-xl max-sm:text-[15px] bg-clip-text text-transparent  bg-gradient-to-r  from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[470px] mt-5 pl-1">
               Programming enthusiast who often thinks about developing new 
               things for solving real world problems.
             </p>

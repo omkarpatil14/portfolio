@@ -29,7 +29,7 @@ function Achievements() {
          data-aos="fade-left"
       >
       <h1 className='     bg-clip-text  text-transparent font-semibold text-2xl  bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100'  >
-      &#8226; Achievements in MHT CET 
+      &#8226; Achievements in MCA CET 
             </h1>
             <p className="capitalize text-gray-500 dark:text-slate-500 text-md max-sm:text-lg leading-9">
             I achieved a remarkable 45th All India Rank in MHT CET 2023, securing an impressive 99.54 percentile. Additionally, I earned the distinction of being third in Chhatrapati Shivaji University, Kolhapur
