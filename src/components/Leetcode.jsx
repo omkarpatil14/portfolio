@@ -1,9 +1,13 @@
 import axios from 'axios'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React, { useEffect, useState } from 'react'
 
 function Leetcode() {
     const [res, setRes] = useState(null); // Initialize state as null to indicate data is being fetched
-    
+    useEffect(() => {
+        AOS.init();
+      }, []);
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -35,7 +39,7 @@ function Leetcode() {
         };
 
         return (
-            <div className="flex flex-wrap justify-center gap-5">
+            <div className="flex flex-wrap justify-center gap-5"data-aos="fade-right">
                 <div>
                     <p className=' dark:text-white' >Acceptance Rate: <span className={colors.acceptanceRate}>{res.acceptanceRate}%</span></p>
                 </div>

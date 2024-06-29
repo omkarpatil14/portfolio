@@ -42,18 +42,18 @@ const App = () => {
           />
         </div>
       ) : (
-        <div className=" " >
+        <  >
           <Navbar></Navbar>
           <About></About>
           <Achievements/>
-          {/* <Experience></Experience> */}
+        
           <Skills/>
           <Leetcode/>
           <Education></Education>
           <Projects></Projects>
 
           <Contact></Contact>
-        </div>
+        </>
       )}
     </>
   );

@@ -9,7 +9,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className="EXPERIENCE md:p-5 md:mx-20 h-auto flex flex-col md:flex-row justify-center items-center md:mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
+        className="EXPERIENCE md:p-5 md:mx-20 h-auto flex flex-col  md:flex-row justify-center items-center md:mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
       >
         <div className="WRAPPER mt-12 flex min-w-[50%] max-sm:flex-col gap-5 justify-between">
           <div className="INTRO text-[70px] leading-[80px] font-semibold max-sm:text-[50px] max-sm:leading-[70px] max-sm:font-semibold">

@@ -4,19 +4,19 @@ import Aos from 'aos'
 
 function Achievements() {
   useEffect(() => {
-    Aos.init();
+    Aos.init(); 
   }, []);
   return (
     
     <section id="achievements"
-    className="EXPERIENCE p-5 mx-20 flex flex-col justify-center items-center mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5">
-        <h1 className="text-[#00040f] dark:text-slate-300 p-11 font-extrabold text-5xl text-center">
+    className="p-10 " data-aos="fade-left">
+        <h1 className="text-[#00040f]  dark:text-slate-300 py-5 font-extrabold text-5xl text-center" >
            Achivements
           </h1>
       <div className='capitalize  text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg'
-          data-aos="fade-left"
+         
           >
-            <h1 className='     bg-clip-text  text-transparent font-semibold text-2xl  bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100'  >
+            <h1 className='     bg-clip-text  text-transparent font-semibold text-2xl  bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 '  >
             &#8226;  Recognition at AlphaByte 1.0: Guiding Team Success to the Top 20
             </h1>
          
@@ -26,7 +26,7 @@ function Achievements() {
               </p>
       </div>
       <div className='capitalize  text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg'
-         data-aos="fade-left"
+       
       >
       <h1 className='     bg-clip-text  text-transparent font-semibold text-2xl  bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100'  >
       &#8226; Achievements in MCA CET 
@@ -36,7 +36,7 @@ function Achievements() {
               </p>
       </div>
       <div className='capitalize  text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg'
-       data-aos="fade-left"
+      
       >
       <h1 className='     bg-clip-text  text-transparent font-semibold text-2xl  bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100'  >
       &#8226;state Rugby champion
