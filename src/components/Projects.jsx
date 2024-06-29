@@ -22,7 +22,7 @@ const Projects = () => {
 
         <div className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1">
         <Project_prop 
-            title="Bing"
+            title="Blip"
             para=" A  platform for seamless social networking, enabling connection, sharing, and discovery"
             direct="right"
             img={Game}

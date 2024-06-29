@@ -7,6 +7,8 @@ import {
   SiGmail,
 } from "react-icons/si";
 
+import profile from "../assets/profile.jpg"
+
 
 
 const Contact = () => {
@@ -24,7 +26,7 @@ const Contact = () => {
             <p className="text-gray-600 dark:text-slate-400 leading-[30.8px] mt-7 max-w-[400px] max-sm:text-center">
            
 
-Hey there! I'm Omkar Patil, a math graduate turned coding aficionado currently diving into the world of MCA. I thrive on cracking coding challenges, exploring tech frontiers, and crafting innovative solutions.
+            Hey, I'm Omkar Patil. a math grad turned coding aficionado exploring the realm of MCA. I'm driven by the thrill of solving complex coding puzzles, pushing the limits of technology, and crafting solutions that redefine what's possible
             </p>
             <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
               <a
@@ -74,12 +76,13 @@ Hey there! I'm Omkar Patil, a math graduate turned coding aficionado currently d
             </div>
           </div>
 
-          <div className="IMG p-0 max-sm:grid max-sm:place-content-center">
-            {/* <img
-              src={Dhairya}
-              alt="Dhairya Majmudar"
-              className="h-[200px] max-sm:h-[150px] border-[#00040fab] dark:border-slate-300 border-4 rounded-full mt-12"
-            /> */}
+          <div className="IMG p-0 max-sm:grid max-sm:place-content-center items-center">
+          <img
+  src={profile}
+  alt="omkar patil"
+  className="md:h-[300px] md:w-[300px] max-sm:h-[150px] border-[#00040fab] dark:border-slate-300 border-4 rounded-full mt-12 object-cover"
+/>
+
           </div>
         </div>
 
