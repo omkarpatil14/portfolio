@@ -22,7 +22,9 @@ const Contact = () => {
               Omkar Patil
             </h2>
             <p className="text-gray-600 dark:text-slate-400 leading-[30.8px] mt-7 max-w-[400px] max-sm:text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quo a reiciendis doloremque quisquam totam quae itaque in modi.
+           
+
+Hey there! I'm Omkar Patil, a math graduate turned coding aficionado currently diving into the world of MCA. I thrive on cracking coding challenges, exploring tech frontiers, and crafting innovative solutions.
             </p>
             <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
               <a

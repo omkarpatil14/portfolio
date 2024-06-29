@@ -12,9 +12,9 @@ const Education = () => {
     <section
       id="education"
       className="EXPERIENCE p-5 mx-20 flex flex-col justify-center items-center mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
-      data-aos="fade-left"
+      
     >
-      <div className="WRAPPER mt-10 flex flex-col gap-14">
+      <div className="WRAPPER mt-10 flex flex-col gap-14"data-aos="fade-right">
         <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl   ">
         Education
         </h1>

@@ -9,8 +9,9 @@ function Achievements() {
   return (
     
     <section id="achievements"
-    className="p-10 " data-aos="fade-left">
-        <h1 className="text-[#00040f]  dark:text-slate-300 py-5 font-extrabold text-5xl text-center" >
+    className="p-10 " >
+       <div data-aos="fade-right">
+       <h1 className="text-[#00040f]  dark:text-slate-300 py-5 font-extrabold text-5xl text-center" >
            Achivements
           </h1>
       <div className='capitalize  text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg'
@@ -46,6 +47,7 @@ function Achievements() {
               </p>
       </div>
 
+       </div>
     </section>
   )
 }
