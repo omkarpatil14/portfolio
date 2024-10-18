@@ -26,7 +26,7 @@ const Projects = () => {
             para=" A  platform for seamless social networking, enabling connection, sharing, and discovery"
             direct="right"
             img={blip}
-            link="https://blip-by-omkar.vercel.app/"
+            link="https://blip-by-omkar.onrender.com/login"
             github_link="https://github.com/omkarpatil14/blip"
             Mongo={<SiMongodb className="dark:text-slate-200 text-black" />}
             Express={<SiExpress className="dark:text-slate-200 text-black" />}
