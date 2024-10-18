@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Project_prop from "../components/Project_prop";
 import { SiReact, SiTailwindcss, SiVite, SiJavascript, SiNodedotjs, SiExpress, SiMongodb } from "react-icons/si";
-import { Game } from "../constants/Constant";
+import { Game,blip,codefuse ,disneyLogo } from "../constants/Constant";
 
 const Projects = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const Projects = () => {
             title="Blip"
             para=" A  platform for seamless social networking, enabling connection, sharing, and discovery"
             direct="right"
-            img={Game}
+            img={blip}
             link="https://blip-by-omkar.vercel.app/"
             github_link="https://github.com/omkarpatil14/blip"
             Mongo={<SiMongodb className="dark:text-slate-200 text-black" />}
@@ -44,9 +44,9 @@ const Projects = () => {
             title="CodeFuse"
             para=" CodeFuse is a collaborative coding platform where multiple users can join a room, code together in real-time, compile their code, and check the time and space complexity"
             direct="right"
-            img={Game}
-            link="https://blip-by-omkar.vercel.app/"
-            github_link="https://github.com/omkarpatil14/blip"
+            img={codefuse}
+            link="https://codefusefrontend.netlify.app/"
+            github_link="https://github.com/omkarpatil14/codeFuseFrontEnd"
             Mongo={<SiMongodb className="dark:text-slate-200 text-black" />}
             Express={<SiExpress className="dark:text-slate-200 text-black" />}
             react={<SiReact className="dark:text-slate-200 text-black" />}
@@ -63,7 +63,7 @@ const Projects = () => {
             title="Disney+ Hotstar"
             para="Disney+ Hotstar clone website created with React and Tailwind CSS"
             direct="right"
-            img={Game}
+            img={disneyLogo}
             link="https://steady-gaufre-19e03a.netlify.app/"
             github_link="https://github.com/omkarpatil14/Disney_clone"
             react={<SiReact className="dark:text-slate-200 text-black" />}

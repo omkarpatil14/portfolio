@@ -37,6 +37,9 @@ import vjti from "../assets/vjti.jpg";
 import lbs from "../assets/lbs.jpg";
 import node from "../assets/node.png";
 import WellBeing from "../assets/well-being.jpg";
+import blip from "../assets/blip.png";
+import codefuse from "../assets/codefuse.jpg";
+import disneyLogo from "../assets/disneyLogo.jpg";
 
 
 export {
@@ -77,5 +80,8 @@ export {
   java,
   mysql,
   lbs,
-  socket
+  socket,
+  blip,
+  codefuse,
+  disneyLogo
 };
